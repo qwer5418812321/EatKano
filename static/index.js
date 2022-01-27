@@ -411,10 +411,12 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '试着好好练一下？';
-            if (score <= 8) return 'TCL';
+            if (score <= 5) return '标哥狠生气';
+            if (score <= 8) return '文鹏很生气
+';
             if (score <= 10)  return 'TQL';
-            if (score <= 15) return '您';
+            if (score <= 15) return '您是江文鹏？
+';
             return '人？';
         } else {
             if (score <= 49) return '试着好好练一下？';
